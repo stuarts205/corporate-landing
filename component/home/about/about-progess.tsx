@@ -34,7 +34,6 @@ const AboutProgress = () => {
                     </div>
                 </div>
             </div>
-
         ))}
     </div>
   )
