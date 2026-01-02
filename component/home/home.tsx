@@ -3,6 +3,7 @@ import HeroPage from './hero/page'
 import AboutPage from './about/page'
 import ServicesPage from './services/page'
 import WorkProcessPage from './workprocess/page'
+import ProjectPage from './project/page'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <AboutPage />
       <ServicesPage />
       <WorkProcessPage />
+      <ProjectPage />
     </div>
   )
 }
