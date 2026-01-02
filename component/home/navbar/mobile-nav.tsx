@@ -15,7 +15,7 @@ const MobileNav = ({ showMobileNav, closeMobileNav }: MobileNavProps) => {
 
   return (
     <div>
-      <div className={`fixed ${navOpenStyles} inset-0 transform transition-all duration-500 z-1002 bg-black opacity-70 w-full h-screen`}>
+      <div className={`fixed ${navOpenStyles} inset-0 transform transition-all duration-500 z-1002 bg-black w-full h-screen`}>
         <div
           className={`text-white ${navOpenStyles} top-0 fixed justify-center flex flex-col h-full transform 
             transition-all duration-500 delay-300 w-[80%] sm:w-[60%] bg-[#9f7c4e] space-y-6 z-1050`}
