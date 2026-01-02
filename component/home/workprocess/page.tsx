@@ -5,7 +5,7 @@ const WorkProcessPage = () => {
   return (
     <div className="pt-24 pb-24 bg-white">
       <h1 className="text-[#b69974] text-lg text-center font-medium tracking-widest">
-        Work Prcoess
+        Work Process
       </h1>
       <h1 className="text-3xl md:text-5xl mt-4 font-bold text-center">
         Transforming ideas into <br /> digital reality
