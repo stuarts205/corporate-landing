@@ -1,4 +1,3 @@
-import { title } from 'process'
 import React from 'react'
 import { FaBullseye } from 'react-icons/fa'
 import { HiOutlineChartBar } from 'react-icons/hi2'
@@ -28,7 +27,7 @@ const AboutProgress = () => {
                 <div className="flex-1">
                     <div className="flex justify-between items-center mb-2">
                         <h3 className='font-semibold text-gray-800 text-lg'>{item.title}</h3>
-                        <p className='text-semibold text-gray-800'>{item.percentage}</p>
+                        <p className='font-semibold text-gray-800'>{item.percentage}</p>
                     </div>
                     <div className="w-full h-2 bg-gray-300 rounded-full overflow-hidden">
                         <div className="h-2 bg-[#b58b58] rounded-full" style={{width:`${item.percentage}%`}}></div>

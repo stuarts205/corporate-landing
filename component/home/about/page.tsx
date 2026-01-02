@@ -33,8 +33,7 @@ const AboutPage = () => {
             Innovative solutions for digital success
           </h1>
           <p className="ml-0 md:ml-12 md:mt-10 mt-5 text-black text-sm md:text-base font-semibold leading-loose">
-            Payment solutions enable businesses to accept payments Payment
-            solutions enable businesses to accept payments from customers
+            Payment solutions enable businesses to accept payments from customers
             conveniently securely from customers conveniently and securely.
           </p>
           <AboutProgress />
