@@ -5,6 +5,7 @@ import ServicesPage from './services/page'
 import WorkProcessPage from './workprocess/page'
 import ProjectPage from './project/page'
 import BlogPage from './blog/page'
+import ContactPage from './contact/page'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <WorkProcessPage />
       <ProjectPage />
       <BlogPage />
+      <ContactPage />
     </div>
   )
 }
