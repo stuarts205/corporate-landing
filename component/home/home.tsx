@@ -6,6 +6,7 @@ import WorkProcessPage from './workprocess/page'
 import ProjectPage from './project/page'
 import BlogPage from './blog/page'
 import ContactPage from './contact/page'
+import FooterPage from './footer/page'
 
 const Home = () => {
   return (
