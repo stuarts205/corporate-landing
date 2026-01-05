@@ -11,23 +11,35 @@ const BlogPage = () => {
         Latest news & articles <br /> from our blog
       </h1>
       <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-20">
-        <div>
-            <BlogCard
-                image='/images/b1.png'
-                title='Standard chunck of Lorem Ipsum used since the 1500s'
-            />
+        <div
+          data-aos="fade-left"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="0"
+        >
+          <BlogCard
+            image="/images/b1.png"
+            title="Standard chunck of Lorem Ipsum used since the 1500s"
+          />
         </div>
-        <div>
-            <BlogCard
-                image='/images/b2.png'
-                title='These cases are man simple and easy to distinguish'
-            />
+        <div
+          data-aos="fade-left"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="100"
+        >
+          <BlogCard
+            image="/images/b2.png"
+            title="These cases are man simple and easy to distinguish"
+          />
         </div>
-        <div>
-            <BlogCard
-                image='/images/b3.png'
-                title='Standard chunck of Lorem Ipsum used since the 1500s'
-            />
+        <div
+          data-aos="fade-left"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="200"
+        >
+          <BlogCard
+            image="/images/b3.png"
+            title="Standard chunck of Lorem Ipsum used since the 1500s"
+          />
         </div>
       </div>
     </div>
