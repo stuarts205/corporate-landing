@@ -5,7 +5,11 @@ const ContactPage = () => {
   return (
     <div className='pt-16 pb-16 bg-gray-200'>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 w-[90%] lg:w-[80%] items-center mx-auto mt-16">
-            <div className="lg:col-span-2 bg-gray-900 rounded-xl p-6">
+            <div
+            data-aos="zoom-in"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="0"
+            className="lg:col-span-2 bg-gray-900 rounded-xl p-6">
                 <input
                     type='text'
                     placeholder='Name *'
@@ -32,7 +36,11 @@ const ContactPage = () => {
                 />
                 <button className="w-full px-6 py-3 bg-[#b69974] uppercase cursor-pointer rounded-full text-white">SUBMIT</button>
             </div>
-            <div className="lg:cols-span-1">
+            <div
+            data-aos="zoom-out"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="1000"
+           className="lg:cols-span-1">
                 <div className="p-6 bg-blue-800 flex items-center space-x-4">
                     <div className="w-15 h-15 rounded-full bg-[#d8ff36] flex items-center justify-center flex-col">
                         <FaArrowRight className='text-blue-800' />

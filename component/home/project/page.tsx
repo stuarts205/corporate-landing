@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 import Tilt from "react-parallax-tilt";
 import Image from "next/image";
@@ -23,17 +23,24 @@ const ProjectPage = () => {
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-20 w-[80%] mx-auto gap-6">
         {projectImages.map((src, idx) => {
-          return <div key={idx}>
-            <Tilt>
+          return (
+            <div
+              data-aos="zoom-int"
+              data-aos-anchor-placement="top-center"
+              data-aos-delay="idx * 100"
+              key={idx}
+            >
+              <Tilt>
                 <Image
-                    src={src}
-                    alt={`Project Image ${idx + 1}`}
-                    width={450}
-                    height={550}
-                    className="rounded-md"
+                  src={src}
+                  alt={`Project Image ${idx + 1}`}
+                  width={450}
+                  height={550}
+                  className="rounded-md"
                 />
-            </Tilt>
-          </div>;
+              </Tilt>
+            </div>
+          );
         })}
       </div>
     </div>
